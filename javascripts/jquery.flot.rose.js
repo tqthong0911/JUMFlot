@@ -71,7 +71,7 @@ THE SOFTWARE.
                 var canvas = plot.getCanvas();
                 maxRadius =  Math.min(canvas.width,canvas.height)/2 * opt.series.rose.roseSize;
                 centerTop = (canvas.height/2);
-                centerLeft = centerTop;
+                centerLeft = (canvas.width/2);
                 colors = createColors(opt,series.data[0].length);
                 series.nearBy.findItem = findNearbyItemRose;
                 series.nearBy.drawHover = drawHoverRose;
